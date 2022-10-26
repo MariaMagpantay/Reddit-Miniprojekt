@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RWgopRJKeZP+S+d9+MN2zIXAUgwz+5fOjq1bAyGN2Mw=",
+  "Source": "Reddit_API",
+  "BasePath": "_content/Reddit_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

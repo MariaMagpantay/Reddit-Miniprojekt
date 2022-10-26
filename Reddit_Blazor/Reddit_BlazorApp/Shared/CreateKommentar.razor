@@ -1,0 +1,27 @@
+@using Reddit_BlazorApp.Data;
+@inject ApiService apiService
+
+<div>
+    <br/>
+    <h3>Skriv en kommentar</h3>
+    <input placeholder="Tekst" type="input" id="tekst" @bind-value="tekst"/>
+    <button id="createKommentarButton" type="button" @onclick="CreateNyKommentar">Opret Kommentar</button>
+</div>
+
+@code {
+
+    // PostId is passed in from the parent component. See how in PostItem.razor.
+    [Parameter]
+    public int TrådID { get; set; }
+    private string? tekst;
+    private async void CreateNyKommentar()
+    {
+        if (tekst == null)
+        {
+            return;
+        }
+        // TODO: Provide list of users from dropdown, or maybe just convert
+        // from username to UserId
+        await apiService.CreateKommentar(TrådID, 2, tekst); // UserId: 2
+    }
+}

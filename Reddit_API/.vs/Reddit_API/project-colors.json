@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b3c7e90e-9d7d-4d5b-a48a-71a5c5bd8559": {
+      "ProjectGuid": "b3c7e90e-9d7d-4d5b-a48a-71a5c5bd8559",
+      "DisplayName": "Reddit_API",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

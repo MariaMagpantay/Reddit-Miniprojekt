@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reddit_BlazorApp", "Reddit_BlazorApp\Reddit_BlazorApp.csproj", "{5C73A658-7F40-4521-BB3C-ADD232FAE203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C73A658-7F40-4521-BB3C-ADD232FAE203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C73A658-7F40-4521-BB3C-ADD232FAE203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C73A658-7F40-4521-BB3C-ADD232FAE203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C73A658-7F40-4521-BB3C-ADD232FAE203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33BA10BA-A2E1-4349-9072-79775CCD7735}
+	EndGlobalSection
+EndGlobal

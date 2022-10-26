@@ -1,0 +1,29 @@
+﻿@using Reddit_BlazorApp.Data;
+@inject ApiService apiService
+
+<div>
+    <br/>
+    <h3>Lav en ny tråd</h3>
+    <input placeholder="Overskrift" type="input" id="overskrift" @bind-value="overskrift"/>
+    <input placeholder="Indhold" type="input" id="indhold" @bind-value="indhold"/>
+    <button id="createTrådButton" type="button" @onclick="CreateNyTråd"><a href="/">Opret Tråd</a></button>
+</div>
+
+@code {
+
+    // PostId is passed in from the parent component. See how in PostItem.razor.
+    [Parameter]
+    public int TrådID { get; set; }
+    private string? overskrift;
+    private string? indhold;
+    private async void CreateNyTråd()
+    {
+        if (overskrift == null || indhold == null )
+        {
+            return;
+        }
+        
+
+        await apiService.CreateTråd(3, overskrift, indhold); // UserId: 2
+    }
+}
