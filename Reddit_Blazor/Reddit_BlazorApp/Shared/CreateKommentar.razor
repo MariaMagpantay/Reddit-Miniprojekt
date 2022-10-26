@@ -10,7 +10,6 @@
 
 @code {
 
-    // PostId is passed in from the parent component. See how in PostItem.razor.
     [Parameter]
     public int TrådID { get; set; }
     private string? tekst;
@@ -20,8 +19,7 @@
         {
             return;
         }
-        // TODO: Provide list of users from dropdown, or maybe just convert
-        // from username to UserId
+       
         await apiService.CreateKommentar(TrådID, 2, tekst); // UserId: 2
     }
 }

@@ -28,15 +28,11 @@ else
         {
             <tr>
                 Skrevet af: @tråd.Bruger.BrugerNavn
-                Dato: @tråd.Dato
+                - Dato: @tråd.Dato
             </tr>
-            <tr><a href="/tråd/@tråd.TrådID">@tråd.Overskrift</a></tr>
+            <tr><h3><a href="/tråd/@tråd.TrådID">@tråd.Overskrift</a></h3></tr>
             <tr>
-                <!--
-                    These a href links will match the route in the page 'PostItem.razor'.
-                    The route is defined as "/post/{id}" and the id is the post id.
-                -->
-                
+                              
                 <td>@tråd.Indhold</td>
             </tr>
              <tr>

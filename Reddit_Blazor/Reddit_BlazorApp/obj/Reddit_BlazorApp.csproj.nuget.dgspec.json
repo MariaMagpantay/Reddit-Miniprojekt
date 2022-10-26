@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj": {}
+    "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj": {
+    "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj",
         "projectName": "Reddit_BlazorApp",
-        "projectPath": "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj",
-        "packagesPath": "C:\\Users\\jhrau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_Blazor\\Reddit_BlazorApp\\obj\\",
+        "projectPath": "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_Blazor\\Reddit_BlazorApp\\Reddit_BlazorApp.csproj",
+        "packagesPath": "C:\\Users\\Maria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_Blazor\\Reddit_BlazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jhrau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,14 +56,15 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.1, 6.0.1]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

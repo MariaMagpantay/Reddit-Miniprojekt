@@ -18,14 +18,14 @@ namespace Service
         public void SeedData()
         {
             Tråd tråd = db.Tråde.FirstOrDefault()!;
-            Bruger brugersalsa = new Bruger(1, "SalsaMan");
-            Bruger bror = new Bruger(2, "Brother");
-            Bruger suppemand = new Bruger(3, "HSM Fan no.1");
-            Kommentar testKommentar = new Kommentar(1, "test", brugersalsa, 0, 0, new DateTime(2022, 10, 12));
-            Kommentar testKommentar2 = new Kommentar(2, "JEG ELSKER SUPPE OG SHARPAY", suppemand, 2, 1, new DateTime(2022, 10, 12));
-            Kommentar testKommentar3 = new Kommentar(3, "Jeg tester lige kommentaren", bror, 2, 5, new DateTime(2022, 10, 21));
-            Tråd testTråd = new Tråd(1, bror, "test overskrift", 0, 0, new DateTime(2022, 10, 12), "test indhold");
-            Tråd testTråd1 = new Tråd(2, brugersalsa, "test test", 0, 2, new DateTime(2022, 10, 21), "test indhold til tråd 2");
+            Bruger laura = new Bruger(1, "Laura");
+            Bruger jonas = new Bruger(2, "Jonas");
+            Bruger maria = new Bruger(3, "Maria");
+            Kommentar testKommentar = new Kommentar(1, "Fed tråd!", laura, 0, 0, new DateTime(2022, 10, 12));
+            Kommentar testKommentar2 = new Kommentar(2, "JEG ELSKER DET", maria, 2, 1, new DateTime(2022, 10, 12));
+            Kommentar testKommentar3 = new Kommentar(3, "Ej hvor sejt", jonas, 2, 5, new DateTime(2022, 10, 21));
+            Tråd testTråd = new Tråd(1, jonas, "Det Bedste fag ever!", 0, 0, new DateTime(2022, 10, 12), "Jeg er vild med Softwarearkitektur!");
+            Tråd testTråd1 = new Tråd(2, laura, "De sejeste undervisere", 0, 2, new DateTime(2022, 10, 21), "Kristian og Peter er geniale");
             testTråd.KommentarListe.Add(testKommentar);
             testTråd.KommentarListe.Add(testKommentar2);
             testTråd1.KommentarListe.Add(testKommentar3);

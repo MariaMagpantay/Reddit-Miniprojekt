@@ -11,7 +11,6 @@
 
 @code {
 
-    // PostId is passed in from the parent component. See how in PostItem.razor.
     [Parameter]
     public int TrådID { get; set; }
     private string? overskrift;
@@ -24,6 +23,6 @@
         }
         
 
-        await apiService.CreateTråd(3, overskrift, indhold); // UserId: 2
+        await apiService.CreateTråd(3, overskrift, indhold); // UserId: 3
     }
 }
