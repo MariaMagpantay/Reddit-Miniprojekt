@@ -32,7 +32,12 @@ else
     <div class="contents">
         <h4>@Tråd.Overskrift</h4>
         <p><strong>Bruger: @Tråd.Bruger.BrugerNavn, Votes: @(Tråd.UpVotes - Tråd.DownVotes)</strong></p>
-        <p>@Tråd.Indhold</p>
+        <p>@if (@Tråd.Indhold.StartsWith("http") == true)
+                    {
+                        <a href="@Tråd.Indhold">@Tråd.Indhold</a>
+                    }
+                    else @Tråd.Indhold
+                    </p>
     </div>
 
     <div class="contents">

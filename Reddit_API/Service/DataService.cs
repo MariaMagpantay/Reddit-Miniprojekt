@@ -26,13 +26,15 @@ namespace Service
             Kommentar testKommentar3 = new Kommentar(3, "Ej hvor sejt", jonas, 2, 5, new DateTime(2022, 10, 21));
             Tråd testTråd = new Tråd(1, jonas, "Det Bedste fag ever!", 0, 0, new DateTime(2022, 10, 12), "Jeg er vild med Softwarearkitektur!");
             Tråd testTråd1 = new Tråd(2, laura, "De sejeste undervisere", 0, 2, new DateTime(2022, 10, 21), "Kristian og Peter er geniale");
+            Tråd testTråd2 = new Tråd(3, maria, "Det bedste danske subreddit", 2, 0, new DateTime(2022, 10, 25), "https://www.reddit.com/r/denmark");
             testTråd.KommentarListe.Add(testKommentar);
             testTråd.KommentarListe.Add(testKommentar2);
             testTråd1.KommentarListe.Add(testKommentar3);
-            if (tråd == null) //Hvis der ingen tråde er i databasen, indsættes testTråd og testTråd1
+            if (tråd == null) //Hvis der ingen tråde er i databasen, indsættes testTråde
             {
                 db.Tråde.Add(testTråd);
                 db.Tråde.Add(testTråd1);
+                db.Tråde.Add(testTråd2); 
             }
 
             db.SaveChanges();

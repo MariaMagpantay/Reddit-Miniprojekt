@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_API\\Reddit_API.csproj": {}
+    "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_API\\Reddit_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_API\\Reddit_API.csproj": {
+    "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_API\\Reddit_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_API\\Reddit_API.csproj",
+        "projectUniqueName": "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_API\\Reddit_API.csproj",
         "projectName": "Reddit_API",
-        "projectPath": "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_API\\Reddit_API.csproj",
-        "packagesPath": "C:\\Users\\Maria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maria\\Documents\\IT-arkitektur\\3_semester\\Softwarearkitektur\\Miniprojekt\\Reddit_API\\obj\\",
+        "projectPath": "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_API\\Reddit_API.csproj",
+        "packagesPath": "C:\\Users\\jhrau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhrau\\Desktop\\ITA\\fag\\SoftwareArkitektur\\miniprojekt\\Done\\Reddit_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhrau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,8 +57,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

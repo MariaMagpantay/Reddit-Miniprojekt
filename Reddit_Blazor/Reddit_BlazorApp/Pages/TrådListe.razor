@@ -33,7 +33,12 @@ else
             <tr><h3><a href="/tråd/@tråd.TrådID">@tråd.Overskrift</a></h3></tr>
             <tr>
                               
-                <td>@tråd.Indhold</td>
+                <td>@if (@tråd.Indhold.StartsWith("http") == true)
+                    {
+                        <a href="@tråd.Indhold">@tråd.Indhold</a>
+                    }
+                    else @tråd.Indhold
+                    </td>
             </tr>
              <tr>
                 <td> Karmapoint @(tråd.UpVotes - tråd.DownVotes)

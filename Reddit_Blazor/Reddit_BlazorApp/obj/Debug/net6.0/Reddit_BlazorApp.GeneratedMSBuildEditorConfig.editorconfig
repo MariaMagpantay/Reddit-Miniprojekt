@@ -11,45 +11,45 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Reddit_BlazorApp
 build_property.RootNamespace = Reddit_BlazorApp
-build_property.ProjectDir = C:\Users\Maria\Documents\IT-arkitektur\3_semester\Softwarearkitektur\Miniprojekt\Reddit_Blazor\Reddit_BlazorApp\
+build_property.ProjectDir = C:\Users\jhrau\Desktop\ITA\fag\SoftwareArkitektur\miniprojekt\Done\Reddit_Blazor\Reddit_BlazorApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Maria\Documents\IT-arkitektur\3_semester\Softwarearkitektur\Miniprojekt\Reddit_Blazor\Reddit_BlazorApp
+build_property.MSBuildProjectDirectory = C:\Users\jhrau\Desktop\ITA\fag\SoftwareArkitektur\miniprojekt\Done\Reddit_Blazor\Reddit_BlazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/App.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/Pages/Forside.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/Pages/Forside.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yc2lkZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/Pages/NyTråd.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/Pages/NyTråd.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnlUcsOlZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/Pages/TrådListe.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/Pages/TrådListe.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHLDpWRMaXN0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/Pages/TrådSide.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/Pages/TrådSide.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHLDpWRTaWRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/Shared/CreateKommentar.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/Shared/CreateKommentar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENyZWF0ZUtvbW1lbnRhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/Shared/CreateTråd.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/Shared/CreateTråd.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENyZWF0ZVRyw6VkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/_Imports.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Maria/Documents/IT-arkitektur/3_semester/Softwarearkitektur/Miniprojekt/Reddit_Blazor/Reddit_BlazorApp/Shared/MainLayout.razor]
+[C:/Users/jhrau/Desktop/ITA/fag/SoftwareArkitektur/miniprojekt/Done/Reddit_Blazor/Reddit_BlazorApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ahcu95iben
