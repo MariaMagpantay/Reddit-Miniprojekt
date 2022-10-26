@@ -15,6 +15,12 @@
 }
 else
 {
+    <style>
+        .tab {
+            display: inline-block;
+            margin-left: 20em;
+        }
+    </style>
     
     <table>
         
@@ -33,10 +39,11 @@ else
                 
                 <td>@tråd.Indhold</td>
             </tr>
-            <tr>
-                <td> Stemmer @(tråd.UpVotes - tråd.DownVotes)</td>
-                <td><button @onclick="() => UpVote(tråd.TrådID)">Upvote</button></td>
-                <td><button @onclick="() => DownVote(tråd.TrådID)">Downvote</button></td>
+             <tr>
+                <td> Karmapoint @(tråd.UpVotes - tråd.DownVotes)
+                    
+                    <button class="tab" @onclick="() => UpVote(tråd.TrådID)">Upvote</button>
+                    <button @onclick="() => DownVote(tråd.TrådID)">Downvote</button> </td>
             </tr>
 
             <br />
